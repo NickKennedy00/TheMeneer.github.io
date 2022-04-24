@@ -1,0 +1,678 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&display=swap');
+
+body, html{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	width: 100%;
+	height: 70px;
+	background-color: rgba(32,93,214,0.3);
+}
+
+header h1{
+	position: absolute;
+	padding: 3px;
+	float: left;
+	margin-left:2%;
+	margin-top:10px;
+	font-family: 'Rancher', cursive;
+	color: #07F07F;
+}
+
+span{
+	color: white;
+}
+
+ul{
+	width: auto;
+	float: right;
+	margin-top: 8px;
+}
+
+li{
+	display: inline-block;
+	padding: 15px 30px;
+}
+
+a{
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-family: "Archivo", cursive;
+	font-size: 1.2vw;
+}
+
+a:hover{
+	color: #f0c330;
+	transition: 1s;
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	background : #231f20;
+}
+
+.title-up{
+ text-align: center;
+ font-family: 'Bungee Outline';
+ color: white;
+}
+
+.shop-card1{
+  position: relative;
+  width: 320px;
+  height: 420px;
+  background: #122935;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.shop-card1::before{
+  content: '';
+  position: absolute;
+  top: -50%;
+  width: 100%;
+  height: 100%;
+  background: #2196f3;
+  transform: skewY(345deg);
+  transition: 0.5s;
+}
+
+.shop-card1:hover::before{
+  top: -70%;
+  transform: skewY(390deg);
+}
+
+.shop-card1::after{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: 600;
+  font-size: 8em;
+  color: rgba(0,0,0,0.1);
+}
+
+.shop-card1 .img1{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  z-index: 1;
+}
+
+.shop-card1 .img1 img{
+  max-width: 80%;
+  transition: 0.5s;
+}
+
+.shop-card1:hover .img1 img{
+  max-width: 40%;
+}
+
+.shop-card1 .thing-sell1{
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.shop-card1 .thing-sell1 h1{
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.shop-card1 .thing-sell1 .harga1{
+  font-size: 24px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.shop-card1 .thing-sell1 .beli1{
+  font-family: calibri;
+  position: relative;
+  top: 200px;
+  opacity: 0;
+  padding: 10px 30px;
+  margin-top: 15px;
+  color: #fff;
+  text-decoration: none;
+  background: #2196f3;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+.shop-card1:hover .thing-sell1 .beli1{
+  top: 0;
+  opacity: 1;
+}
+
+.shop-card2{
+  position: relative;
+  width: 320px;
+  height: 420px;
+  background: #122935;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.shop-card2::before{
+  content: '';
+  position: absolute;
+  top: -50%;
+  width: 100%;
+  height: 100%;
+  background: #2196f3;
+  transform: skewY(345deg);
+  transition: 0.5s;
+}
+
+.shop-card2:hover::before{
+  top: -70%;
+  transform: skewY(390deg);
+}
+
+.shop-card2::after{
+  content: 'Grand';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: 600;
+  font-size: 8em;
+  color: rgba(0,0,0,0.1);
+}
+
+.shop-card2 .img2{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  z-index: 1;
+}
+
+.shop-card2 .img2 img{
+  max-width: 80%;
+  transition: 0.5s;
+}
+
+.shop-card2:hover .img2 img{
+  max-width: 40%;
+}
+
+.shop-card2 .thing-sell2{
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.shop-card2 .thing-sell2 h1{
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.shop-card2 .thing-sell2 .harga2{
+  font-size: 24px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.shop-card2 .thing-sell2 .beli2{
+  font-family: calibri;
+  position: relative;
+  top: 200px;
+  opacity: 0;
+  padding: 10px 30px;
+  margin-top: 15px;
+  color: #fff;
+  text-decoration: none;
+  background: #2196f3;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+.shop-card2:hover .thing-sell2 .beli2{
+  top: 0;
+  opacity: 1;
+}
+
+.shop-card3{
+  position: relative;
+  width: 320px;
+  height: 420px;
+  background: #122935;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.shop-card3::before{
+  content: '';
+  position: absolute;
+  top: -50%;
+  width: 100%;
+  height: 100%;
+  background: #2196f3;
+  transform: skewY(345deg);
+  transition: 0.5s;
+}
+
+.shop-card3:hover::before{
+  top: -70%;
+  transform: skewY(390deg);
+}
+
+.shop-card3::after{
+  content: 'Sonic';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: 600;
+  font-size: 8em;
+  color: rgba(0,0,0,0.1);
+}
+
+.shop-card3 .img3{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  z-index: 1;
+}
+
+.shop-card3 .img3 img{
+  max-width: 80%;
+  transition: 0.5s;
+}
+
+.shop-card3:hover .img3 img{
+  max-width: 40%;
+}
+
+.shop-card3 .thing-sell3{
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.shop-card3 .thing-sell3 h1{
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.shop-card3 .thing-sell3 .harga3{
+  font-size: 24px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.shop-card3 .thing-sell3 .beli3{
+  font-family: calibri;
+  position: relative;
+  top: 200px;
+  opacity: 0;
+  padding: 10px 30px;
+  margin-top: 15px;
+  color: #fff;
+  text-decoration: none;
+  background: #2196f3;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+.shop-card3:hover .thing-sell3 .beli3{
+  top: 0;
+  opacity: 1;
+}
+
+.cont-shop{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-gap: 50px;
+}
+
+.cont-shop2{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-gap: 50px;
+    margin-bottom: 60px;
+}
+
+.shop-card4{
+  position: relative;
+  width: 320px;
+  height: 420px;
+  background: #122935;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.shop-card4::before{
+  content: '';
+  position: absolute;
+  top: -50%;
+  width: 100%;
+  height: 100%;
+  background: #2196f3;
+  transform: skewY(345deg);
+  transition: 0.5s;
+}
+
+.shop-card4:hover::before{
+  top: -70%;
+  transform: skewY(390deg);
+}
+
+.shop-card4::after{
+  content: 'Big';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: 600;
+  font-size: 8em;
+  color: rgba(0,0,0,0.1);
+}
+
+.shop-card4 .img4{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  z-index: 1;
+}
+
+.shop-card4 .img4 img{
+  max-width: 80%;
+  transition: 0.5s;
+}
+
+.shop-card4:hover .img4 img{
+  max-width: 40%;
+}
+
+.shop-card4 .thing-sell4{
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.shop-card4 .thing-sell4 h1{
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.shop-card4 .thing-sell4 .harga4{
+  font-size: 24px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.shop-card4 .thing-sell4 .beli4{
+  font-family: calibri;
+  position: relative;
+  top: 200px;
+  opacity: 0;
+  padding: 10px 30px;
+  margin-top: 15px;
+  color: #fff;
+  text-decoration: none;
+  background: #2196f3;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+.shop-card4:hover .thing-sell4 .beli4{
+  top: 0;
+  opacity: 1;
+}
+
+.shop-card5{
+  position: relative;
+  width: 320px;
+  height: 420px;
+  background: #122935;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.shop-card5::before{
+  content: '';
+  position: absolute;
+  top: -50%;
+  width: 100%;
+  height: 100%;
+  background: #2196f3;
+  transform: skewY(345deg);
+  transition: 0.5s;
+}
+
+.shop-card5:hover::before{
+  top: -70%;
+  transform: skewY(390deg);
+}
+
+.shop-card5::after{
+  content: 'Chungus';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: 600;
+  font-size: 8em;
+  color: rgba(0,0,0,0.1);
+}
+
+.shop-card5 .img5{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  z-index: 1;
+}
+
+.shop-card5 .img5 img{
+  max-width: 80%;
+  transition: 0.5s;
+}
+
+.shop-card5:hover .img5 img{
+  max-width: 40%;
+}
+
+.shop-card5 .thing-sell5{
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.shop-card5 .thing-sell5 h1{
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.shop-card5 .thing-sell5 .harga5{
+  font-size: 24px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.shop-card5 .thing-sell5 .beli5{
+  font-family: calibri;
+  position: relative;
+  top: 200px;
+  opacity: 0;
+  padding: 10px 30px;
+  margin-top: 15px;
+  color: #fff;
+  text-decoration: none;
+  background: #2196f3;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+.shop-card5:hover .thing-sell5 .beli5{
+  top: 0;
+  opacity: 1;
+}
+
+.shop-card6{
+  position: relative;
+  width: 320px;
+  height: 420px;
+  background: #122935;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.shop-card6::before{
+  content: '';
+  position: absolute;
+  top: -50%;
+  width: 100%;
+  height: 100%;
+  background: #2196f3;
+  transform: skewY(345deg);
+  transition: 0.5s;
+}
+
+.shop-card6:hover::before{
+  top: -70%;
+  transform: skewY(390deg);
+}
+
+.shop-card6::after{
+  content: 'Wazoski';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: 600;
+  font-size: 8em;
+  color: rgba(0,0,0,0.1);
+}
+
+.shop-card6 .img6{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  z-index: 1;
+}
+
+.shop-card6 .img6 img{
+  max-width: 100%;
+  transition: 0.5s;
+}
+
+.shop-card6:hover .img6 img{
+  max-width: 40%;
+}
+
+.shop-card6 .thing-sell6{
+  position: relative;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.shop-card6 .thing-sell6 h1{
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.shop-card6 .thing-sell6 .harga6{
+  font-size: 24px;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.shop-card6 .thing-sell6 .beli6{
+  font-family: calibri;
+  position: relative;
+  top: 200px;
+  opacity: 0;
+  padding: 10px 30px;
+  margin-top: 15px;
+  color: #fff;
+  text-decoration: none;
+  background: #2196f3;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+.shop-card6:hover .thing-sell6 .beli6{
+  top: 0;
+  opacity: 1;
+}

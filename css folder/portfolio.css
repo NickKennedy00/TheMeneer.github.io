@@ -1,0 +1,307 @@
+@charset "utf-8";
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	width: 100%;
+	height: 70px;
+	background-color: rgba(32,93,214,0.8);
+}
+
+header h1{
+	position: absolute;
+	padding: 3px;
+	float: left;
+	margin-left:2%;
+	margin-top:10px;
+	font-family: 'Rancher', cursive;
+	color: #07F07F;
+}
+
+span{
+	color: white;
+}
+
+ul{
+	width: auto;
+	float: right;
+	margin-top: 8px;
+	list-style: none;
+}
+
+li{
+	display: inline-block;
+	padding: 15px 30px;
+}
+
+a{
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-family: "Archivo", cursive;
+	font-size: 1.2vw;
+}
+
+a:hover{
+	color: #f0c330;
+	transition: 1s;
+}
+
+section{
+	width: 100%;
+	height: 95vh;
+	background-image: url("../image/bgport.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.text-cont p:nth-child(1){
+	font-family: calibri;
+	font-weight: bold;
+	color: black;
+	font-size: 22px;
+}
+
+.text-cont p:nth-child(2){
+	font-family: calibri;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: black;
+	font-size: 60px;
+}
+
+.text-cont p:nth-child(3){
+	font-family: myriad pro regular;
+	color: black;
+	font-size: 30px;
+	line-height: 30px;
+}
+
+.text-cont p{
+	line-height: 0px;
+	margin: 45px 0px 25px;
+}
+
+.text-cont{
+	position: absolute;
+	left:13%;
+	top: 42%;
+	transform: translate(-13%, -42%);
+}
+
+.model{
+	height: 860px;
+	position: absolute;
+	bottom: 0%;
+	left: 70%;
+	transform: translateX(-70%);
+}
+
+.about-container{
+	width:80%;
+	height:330px;
+	background:#ffffff;
+	border-radius:20px;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	display: flex;
+	margin: -7%  auto 20px auto;
+	position: relative;
+	justify-content:space-evenly;
+	align-items: center;
+}
+.about-container img{
+	height:250px;
+}
+.about-text{
+	width:500px;
+} 
+.about-text p:nth-child(1){
+	color:#403e3e;
+	font-family: myriad pro;
+	font-weight:bold;
+	font-size:23px;
+	line-height:0px;
+}
+.about-text p:nth-child(2){
+	color:#3e3d3d;
+	font-size:13px;
+	font-family: myriad pro;
+	font-weight:bold;
+	line-height:5px;
+}
+.about-text p:nth-child(3),.about-text p:nth-child(4){
+	color:#7e7d7d;
+	font-family:calibri;
+	font-size:16px;
+}
+.about-text button{
+	width:120px;
+	height: 40px;
+	color:#ffffff;
+	outline:none;
+	border:none;
+	font-family: calibri;
+	background-color:#262525;
+}
+
+footer p{
+	font-family: calibri;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	font-weight:bold;
+	color:#191919;
+	line-height:10px;
+}
+footer p:nth-child(2){
+	font-size: 16px;
+	color:#7e7d7d;
+	width:600px;
+	text-align: center;
+}
+footer{
+	height:300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.social-icons a{
+	width:40px;
+	height:40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#e6e3e3;
+	margin:20px 10px;
+	border-radius:50%;
+}
+.social-icons{
+	display: flex;
+	
+}
+.social-icons i,.social i{
+	color:#000000;
+}
+.social-icons a:hover{
+	background-color:#000000;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+	transition:all ease 0.5s;
+}
+.social-icons a:hover i,
+.social a:hover i{
+	color:#FFFFFF;
+	transition:all ease 0.5s;
+}
+.social{
+	position: fixed;
+	top:50%;
+	right:0px;
+	transform:translateY(-50%);
+}
+.social a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width:50px;
+	height:50px;
+	margin:0px;
+	padding: 0px;
+	line-height:0px;
+	background-color:#FFFFFF;
+	border:1px solid #CBCBCB;
+	box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+}
+.social a:hover{
+	background-color:#000000;
+	transition:all ease 0.5s;
+}
+.social i{
+	font-size:20px;
+	color:#2B2B2B;
+}
+
+.boxholder{
+	width: 100%;
+	display: flex;
+	background: #e6e3e3;
+	padding: 50px;
+	box-sizing: border-box;
+	flex-direction: row;
+	grid-gap: 50px;
+}
+
+.boxcontent1{
+	flex: 1;
+	background: black;
+	padding: 30px;
+	font-size: 12px;
+	font-family: calibri;
+	text-align: center;
+	border-radius: 50px;
+}
+
+.boxcontent1:hover{
+	background: white;
+	transition: 1s;
+}
+
+.boxcontent1:hover:after{
+	content: "Creating an easy generation who understands literacy, and creating netizens who understand literacy around the content they watch.";
+	font-size: 30px;
+}
+
+.boxcontent2{
+	flex: 1;
+	background: white;
+	padding: 30px;
+	font-size: 12px;
+	font-family: calibri;
+	text-align: center;
+	border-radius: 50px;
+}
+
+.boxcontent2:hover{
+	background: black;
+	transition: 1s;
+}
+
+.boxcontent2:hover:after{
+	content: "Hold seminars related to literacy, train netizen literacy with Meme, and help netizens understand literacy to be better in the future.";
+	font-size: 30px;
+	color: white;
+}
+
+@media screen and (max-width: 760px){
+	.boxholder{
+		flex-direction: column;
+	}
+}
+
+.boxcontent1 h1{
+	font-size: 50px;
+	color: white;
+}
+
+.boxcontent2 h1{
+	font-size: 50px;
+	color: black;
+}
+
+.gallery{
+	font-family: calibri;
+	background-color: #45567d;
+}
+
+.gallery font{
+	text-align: center;
+	color: white;
+}
+
+img{
+	border-radius: 10%;
+}
